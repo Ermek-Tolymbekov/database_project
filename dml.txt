@@ -93,4 +93,9 @@ insert into inventory values (5, 15, 10);
 insert into inventory values (5, 17, 10);
 insert into inventory values (5, 19, 10);
 
+insert into shipping_track values (10002, 111111, '2019-03-14', 'delivered');
+insert into shipping_track values (10005, 111112, '2020-06-04', 'delivered');
+insert into shipping_track values (10005, 111113, '2021-01-10', 'sent');
+insert into shipping_track values (10007, 111114, '2020-01-27', 'delivered');
+insert into shipping_track values (10010, 111115, '2020-01-05', 'delivered');
 
