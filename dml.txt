@@ -1,0 +1,96 @@
+insert into customer values();
+insert into online_customer values();
+insert into product values();
+insert into store values();
+insert into inventory values();
+insert into manufacturer values();
+insert into shipping_company values();
+
+insert into shipping_detail values();
+insert into order_info values();
+
+insert into shipping_track values();
+insert into reorder values();
+insert into sales values();
+
+insert into shipping_company values(3001, 'UPS Express', '+1-5454-54-00-05', 'ups@mail.com');
+insert into shipping_company values(3002, 'FedEx Corporation', '+3-8999-99-89-98', 'fedex@post.com');
+insert into shipping_company values(3003, 'KazPost', '+7-7272-22-22-27', 'kazpost@mail.kz');
+insert into shipping_company values(3004, 'Russian Post', '+7-8800-00-00-01', 'ruspost@mail.ru');
+
+insert into manufacturer values(901, 'Samsung', 'samsung@mail.com');
+insert into manufacturer values(902, 'Apple', 'apple@mail.com');
+insert into manufacturer values(903, 'Canon', 'canon@mail.com');
+insert into manufacturer values(904, 'Panasonic', 'panasonic@mail.com');
+insert into manufacturer values(905, 'Sony', 'sony@mail.com');
+
+insert into product values(10, 'iPhone XX', 'phone', 902, 899.99);
+insert into product values(11, 'Samsung Z50', 'phone', 901, 499.99);
+insert into product values(12, 'MacBook Air H9', 'laptop', 901, 249.99);
+insert into product values(13, 'Sony Vaio F56', 'laptop', 905, 180.00);
+insert into product values(14, 'Sony LedTV', 'tv', 905, 789.99);
+insert into product values(15, 'Samsung HD900', 'tv', 901, 599.99);
+insert into product values(16, 'Panasonic Lumix D1', 'camera', 904, 140.00);
+insert into product values(17, 'Canon C70', 'camera', 903, 125.50);
+insert into product values(18, 'Canon TS31', 'printer', 903, 45.99);
+insert into product values(19, 'Panasonic KX64', 'printer', 904, 59.99);
+
+insert into customer values (10001, 'Oliver', 'Smith', '+1-800-268-8274', true);
+insert into customer values (10002, 'Sophia', 'Brown', '+1-800-601-3381', false);
+insert into customer values (10003, 'William', 'Jones', '+4-1894-218-2054', false);
+insert into customer values (10004, 'Henry', 'Martinez', '+32-985-561-1922', true);
+insert into customer values (10005, 'Alex', 'Wilson', '+96-760-404-4684', false);
+insert into customer values (10006, 'Arsen', 'Omarov', '+7-707-084-4016', true);
+insert into customer values (10007, 'Aisha', 'Akhmetova', '+7-747-260-3101', false);
+insert into customer values (10008, 'Alan', 'Serikov', '+7-707-159-426-9613', false);
+insert into customer values (10009, 'Daniel', 'Perez', '+82-084-034-0567', false);
+insert into customer values (10010, 'Andrew', 'Lee', '+7-804-920-6348', true);
+
+insert into online_customer values (10002, 'USA', 'Washington', 'st.Saint Tom 54', 's_brown@mail.com', '1779-7892-2603-6821', '2025-12-26', '334', '879788');
+insert into online_customer values (10005, 'Ireland', 'Dublin', 'Bothar Mon 78', 'a_wilson@mail.com', '9923-2869-2439-6293', '535', '789789');
+insert into online_customer values (10007, 'Kazakhstan', 'Almaty', 'Abai 334', 'a_akhmetova@mail.com', '7891-9656-3125-0566', '999', '685031');
+insert into online_customer values (10010, 'Russia', 'Moscow', 'Lenina 156', 'a_lee@mail.com', '5922-3021-5302-8748', '678', '245850');
+
+insert into store values (1, 'USA', 'New York', 'Second Street', '+1-797-999-9999');
+insert into store values (2, 'Kazakhstan', 'Astana', 'Second Street', '+7-777-777-0000');
+insert into store values (3, 'Russia', 'Moscow', 'Second Street', '+7-888-888-0888');
+insert into store values (4, 'China', 'Shanghai', 'Second Street', '+14-297-222-2222');
+insert into store values (5, 'UK', 'London', 'Second Street', '+2-789-444-4444');
+
+insert into inventory values (1, 10, 10);
+insert into inventory values (1, 11, 10);
+insert into inventory values (1, 12, 10);
+insert into inventory values (1, 13, 10);
+insert into inventory values (1, 14, 10);
+insert into inventory values (1, 15, 10);
+insert into inventory values (1, 16, 10);
+insert into inventory values (1, 17, 10);
+insert into inventory values (1, 18, 10);
+insert into inventory values (1, 19, 10);
+
+insert into inventory values (2, 10, 10);
+insert into inventory values (2, 11, 10);
+insert into inventory values (2, 12, 10);
+insert into inventory values (2, 13, 10);
+insert into inventory values (2, 14, 10);
+
+insert into inventory values (3, 14, 10);
+insert into inventory values (3, 15, 10);
+insert into inventory values (3, 16, 10);
+insert into inventory values (1, 18, 10);
+insert into inventory values (1, 19, 10);
+
+insert into inventory values (4, 11, 10);
+insert into inventory values (4, 12, 10);
+insert into inventory values (4, 13, 10);
+insert into inventory values (1, 15, 10);
+insert into inventory values (1, 16, 10);
+insert into inventory values (1, 17, 10);
+
+insert into inventory values (5, 10, 10);
+insert into inventory values (5, 11, 10);
+insert into inventory values (5, 15, 10);
+insert into inventory values (5, 17, 10);
+insert into inventory values (5, 19, 10);
+
+
