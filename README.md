@@ -1,2 +1,3 @@
-ddl - contains tables, procedures, trigger
-dml - contains inserted values
+ddl - contains tables, procedures, trigger;
+dml - contains inserted values;
+erd - er diagram
